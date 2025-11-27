@@ -32,6 +32,7 @@ The task ID for the refrigerator task is b7258ee05d75e6c50673a59914db412e_110325
 
 curl -X POST http://127.0.0.1:5001/start_assessment \
 -H "Content-Type: application/json" \
--d '{"task_id": "<task id>", "participant_url": "<host url>"}'
+-d '{"task_id": "[task id]", "participant_url": "[host url]"}'
+
 
 These commands should replicate the results of the original benchmark
