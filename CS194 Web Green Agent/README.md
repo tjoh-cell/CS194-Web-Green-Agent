@@ -16,7 +16,7 @@ for the good white agent or
 
 for the careless white agent. If you want to run both, you'll need a terminal for each. Finally, open up one final terminal and type (for windows terminal)
 
-curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: application/json" -d "{\"task_id\": \"b7258ee05d75e6c50673a59914db412e_110325\", \"participant_url\": \"http://127.0.0.1:6001\"}"
+curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: application/json" -d "{\\"task_id\\": \\"b7258ee05d75e6c50673a59914db412e_110325\\", \\"participant_url\\": \\"http://127.0.0.1:6001\\"}"
 
 To run the good white agent for the refrigerator task (make sure you're hosting the good white agent for the refrigerator task), or
 
@@ -36,3 +36,4 @@ curl -X POST http://127.0.0.1:5001/start_assessment \
 
 
 These commands should replicate the results of the original benchmark
+
