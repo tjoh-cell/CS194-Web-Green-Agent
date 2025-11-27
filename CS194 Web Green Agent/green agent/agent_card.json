@@ -1,0 +1,16 @@
+{
+  "name": "WebJudge Evaluator (Green Agent)",
+  "description": "An A2A Green Agent that evaluates web agents using the 3-step WebJudge methodology. This agent hosts an assessment and reports a binary success/failure status.",
+  "type": "GREEN",
+  "capabilities": ["Evaluate Web Agent"],
+  "endpoints": {
+    "start_assessment": "/start_assessment"
+  },
+  "expected_inputs": {
+    "task_id": "The ID of the Online-Mind2Web task to load (e.g., 'om2w_task_001').",
+    "participant_url": "The base URL of the A2A-compliant white agent to be tested."
+  },
+  "output_metrics": {
+    "webjudge_status": "Binary 'success' or 'failure'"
+  }
+}

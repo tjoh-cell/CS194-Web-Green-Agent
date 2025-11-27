@@ -1,0 +1,6 @@
+Flask
+google-generativeai
+requests
+Pillow
+datasets
+huggingface_hub
