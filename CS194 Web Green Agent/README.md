@@ -16,17 +16,17 @@ for the good white agent or
 
 for the careless white agent. If you want to run both, you'll need a terminal for each. Finally, open up one final terminal and type (for windows terminal)
 
-curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: application/json" -d "{\\"task_id\\": \\"b7258ee05d75e6c50673a59914db412e_110325\\", \\"participant_url\\": \\"http://127.0.0.1:6001\\"}"
+curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: application/json" -d "{\\"task_id\\": \\"b7258ee05d75e6c50673a59914db412e_110325\\", \\"participant_url\\": \\"http://127.0.0.1:6001\"}"
 
 To run the good white agent for the refrigerator task (make sure you're hosting the good white agent for the refrigerator task), or
 
-curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: application/json" -d "{\"task_id\": \"b7258ee05d75e6c50673a59914db412e_110325\", \"participant_url\": \"http://127.0.0.1:6002\"}" 
+curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: application/json" -d "{\\"task_id\\": \\"b7258ee05d75e6c50673a59914db412e_110325\\", \\"participant_url\\": \\"http://127.0.0.1:6002\"}" 
 
 To run the carless white agent for the refrigerator task (likewise make sure the careless white agent for the refrigerator task is running), or if you want to test the IGN review task do these commands respectively.
 
-curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: application/json" -d "{\"task_id\": \"aa4b5cb7114fcc138ade82b4b9716d24\", \"participant_url\": \"http://127.0.0.1:6001\"}"
+curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: application/json" -d "{\\"task_id\\": \\"aa4b5cb7114fcc138ade82b4b9716d24\\", \\"participant_url\\": \\"http://127.0.0.1:6001\"}"
 
-curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: application/json" -d "{\"task_id\": \"aa4b5cb7114fcc138ade82b4b9716d24\", \"participant_url\": \"http://127.0.0.1:6002\"}".
+curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: application/json" -d "{\\"task_id\\": \\"aa4b5cb7114fcc138ade82b4b9716d24\\", \\"participant_url\\": \\"http://127.0.0.1:6002\"}".
 
 The task ID for the refrigerator task is b7258ee05d75e6c50673a59914db412e_110325, and the task id for the IGN review isaa4b5cb7114fcc138ade82b4b9716d24. Like I mentioned previously the host urls for the good and careless agent are http://127.0.0.1:6001, and http://127.0.0.1:6002 respectively. For Mac the command is
 
@@ -36,4 +36,5 @@ curl -X POST http://127.0.0.1:5001/start_assessment \
 
 
 These commands should replicate the results of the original benchmark
+
 
