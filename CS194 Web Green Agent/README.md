@@ -28,7 +28,7 @@ curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: ap
 
 curl.exe --% -X POST http://127.0.0.1:5001/start_assessment -H "Content-Type: application/json" -d "{\\"task_id\\": \\"aa4b5cb7114fcc138ade82b4b9716d24\\", \\"participant_url\\": \\"http://127.0.0.1:6002\"}".
 
-The task ID for the refrigerator task is b7258ee05d75e6c50673a59914db412e_110325, and the task id for the IGN review isaa4b5cb7114fcc138ade82b4b9716d24. Like I mentioned previously the host urls for the good and careless agent are http://127.0.0.1:6001, and http://127.0.0.1:6002 respectively. For Mac the command is
+The task ID for the refrigerator task is b7258ee05d75e6c50673a59914db412e_110325, and the task id for the IGN review is aa4b5cb7114fcc138ade82b4b9716d24. Like I mentioned previously the host urls for the good and careless agent are http://127.0.0.1:6001, and http://127.0.0.1:6002 respectively. For Mac the command is
 
 curl -X POST http://127.0.0.1:5001/start_assessment \
 -H "Content-Type: application/json" \
@@ -36,5 +36,6 @@ curl -X POST http://127.0.0.1:5001/start_assessment \
 
 
 These commands should replicate the results of the original benchmark
+
 
 
